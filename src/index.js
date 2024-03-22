@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//Dan Cove dancov8145, 3/8/2024 CIS435
+//2.2 Course Project: Single Page Application with Navigation
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+//Dim up the imports
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+ 
+ReactDOM.render(
+  <App/>, 
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
