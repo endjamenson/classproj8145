@@ -1,0 +1,39 @@
+.stuff-container {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Grid format that is visually pleasing. Too many columns looks busy and bad. */
+    gap: 20px; /* Tunable gap for page disp. */
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%; /*Had to add to prevent overscaling*/
+  }
+  
+
+  .url-link {
+    word-wrap: break-word;
+    max-width: 100%; /*URLs were sending the page too wide. Added to constrain them.*/
+  }
+  .request-quote-button {
+    display: inline-block;
+    background-color: #2ca7f9; /* Same blue as the banner colors? it doesnt seem to be matching well.*/
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .request-quote-button:hover {
+    background-color: #054181; /* Darker blue on hover */
+  }
