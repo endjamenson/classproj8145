@@ -1,0 +1,23 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; 
+    margin-bottom: 10px; 
+  }
+  
+  .input-container label {
+    text-align: left;
+    margin-right: auto; 
+  }
+  
+  .input-container input,
+  .input-container textarea {
+    flex: 1; 
+  }
+  
