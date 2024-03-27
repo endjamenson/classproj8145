@@ -1,3 +1,5 @@
+This page is an example of the work that I can deliver, as part of my final semester at ECPI university.  I am extremely grateful for the experience that I have received and look forward to growing myself as a developer moving forward.  The lessons that I have been taught have enabled me to develop webpages and software more effectively and will serve me well for the rest of my career.  Below is the methods needed to start the project and view it locally, enjoy. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
